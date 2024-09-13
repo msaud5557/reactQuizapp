@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding:0px
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.dropdown, .subCategory, .startQuiz, .quiz {
+  margin: 20px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.timer {
+  margin-top: 20px;
+  font-size: 20px;
+}
