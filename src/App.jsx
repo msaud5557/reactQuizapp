@@ -12,7 +12,7 @@ const quizData = {
 
 { question: "Who created Python?", options: ["Guido", "Dennis", "Linus"], answer: "Guido" },
 
-         { question: "Is Python dynamically typed?", options: ["Yes", "No"], answer: "Yes" },
+           { question: "Is Python dynamically typed?", options: ["Yes", "No"], answer: "Yes" },
     ],
   },
   Technology: {
@@ -51,14 +51,14 @@ function App() {
     }
   };
 
-  const handleCategorySelect = (e) => {
-    setCategory(e);
+  const handleCategorySelect = (d) => {
+    setCategory(d);
     setSubCategory(null); 
     setQuizStarted(false);
   };
 
-  const handleSubCategorySelect = (e) => {
-    setSubCategory(e);
+  const handleSubCategorySelect = (d) => {
+    setSubCategory(d);
     setQuizStarted(false);
   };
 
